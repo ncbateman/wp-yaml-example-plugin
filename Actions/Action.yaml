@@ -1,0 +1,6 @@
+---
+callback: TestPlugin\Action
+actions:
+    action_a:
+      hook: admin_enqueue_scripts
+      method: action_callback_method

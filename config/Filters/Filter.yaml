@@ -1,0 +1,6 @@
+---
+callback: TestPlugin\Filter
+filters:
+    filter_a:
+      hook: admin_user_info_links
+      method: filter_callback_method
